@@ -1,0 +1,28 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "setting up a local graph api",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SSSangha90/graphql-playground.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "Sukhveer Sangha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SSSangha90/graphql-playground/issues"
+  },
+  "homepage": "https://github.com/SSSangha90/graphql-playground#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "graphql-yoga": "^1.18.3"
+  }
+}
