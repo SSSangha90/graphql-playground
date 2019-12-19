@@ -1,11 +1,12 @@
 import { GraphQLServer } from 'graphql-yoga'
+import packageJson from '../package.json'
 
 //Type definations  (Application Schema)
 //Describes the operations and the data structures.
 
 const typeDefs = `
     type Query {
-        hello: String!
+        version: String!
     }
 `
 
@@ -14,8 +15,8 @@ const typeDefs = `
 
 const resolvers = {
     Query: {
-        hello() {
-            return "Hello World!"
+        version() {
+            return `${packageJson.version}`
         }
     }
 }
