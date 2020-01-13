@@ -11,7 +11,7 @@ const typeDefs = `
 `
 
 //Resolvers object for our API
-// These are the functions that acutally run when various oprations are performed.
+// These are the functions that actually run when various operations are performed.
 
 const resolvers = {
     Query: {
